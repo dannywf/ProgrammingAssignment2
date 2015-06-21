@@ -1,10 +1,6 @@
-
-## Put comments here that give an overall description of what your
-## functions do
 ## This is the second programming assignment of the Programming in R Course
 ## It consists in a couple of functions to cache the inverse of a matrix
 
-## Write a short comment describing this function
 ## The function makesCacheMatrix, creates a special "matrix", which is really a list
 ## containing a function to
 ## 1. set the value of the matrix
@@ -25,8 +21,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
 
-
-## Write a short comment describing this function
 ## The function cacheSolve calculates the inverse of a special "matrix" created 
 ## with the above function. It first check to see if the inverse has already been calculated.
 ## If so, it gets the inverse matrix from the cache and skips the computation. Otherwise it calculates the inverse and sets the value using the setinverse function
